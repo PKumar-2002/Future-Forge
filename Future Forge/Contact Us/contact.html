@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="logoff.png" type="image/x-icon" />
+    <link rel="stylesheet" href="dashboard.css" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <div class="outerbox">
+      <div class="innerbox">
+        <div class="contactform">
+          <h1>Contact me for work/general enquiries</h1>
+          <form action="/submit" method="post">
+            <div class="mb-3">
+              <label for="clientemail" class="form-label">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="clientemail"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text">
+                We'll never share your email & phone number with anyone else.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="clientphone" class="form-label">Phone Number</label>
+              <input type="phone" class="form-control" id="clientphone" />
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="isclient" />
+              <label class="form-check-label" for="isclient"
+                >I want you to work on a project with me</label
+              >
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

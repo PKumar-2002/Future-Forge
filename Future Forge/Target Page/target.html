@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="logoff.png" type="image/x-icon" />
+    <link rel="stylesheet" href="target.css" />
+    <title>Future Forge</title>
+  </head>
+
+  <body>
+    <div class="outerbox">
+      <div class="name">FutureForge</div>
+      <div class="logo">
+        <img src="logoff.png" alt="logo" />
+      </div>
+      <ul class="header">
+        <li><a href="./target.html">Targets</a></li>
+        <li><a href="../Contributor Page/contribute.html">Contribute</a></li>
+        <li><a href="../About Us Page/about.html">About Us</a></li>
+        <li><a href="../Dashboard/dashboard.html">Dashboard</a></li>
+      </ul>
+      <div class="innerbox">
+        <div class="card">
+          <!-- First Dropdown -->
+          <div class="dropdown">
+            <label for="dropdown1">I am a <br /></label>
+            <select id="dropdown1">
+              <option value="option1">Option</option>
+              <option value="option2">Class 12 Passout</option>
+            </select>
+          </div>
+
+          <!-- Second Dropdown -->
+          <div class="dropdown">
+            <label for="dropdown2">I want to become <br /></label>
+            <select id="dropdown2">
+              <option value="optionA">Option</option>
+              <option value="optionB">Engineer</option>
+              <option value="optionC">Doctor</option>
+              <option value="optionD">Lawyer</option>
+              <option value="optionE">Writer</option>
+              <option value="optionF">Scientist</option>
+            </select>
+          </div>
+          <button type="submit" class="next-button" onclick="redirectToTarget2()">Next→</button>
+        </div>
+    </div>
+    <script src="target.js"></script>
+  </body>
+</html>

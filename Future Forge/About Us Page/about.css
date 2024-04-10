@@ -1,0 +1,189 @@
+*{ /*for the whole css*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{ /*for the body*/
+    background: linear-gradient( to right, #25ecb1 , #0cb193);
+    height: 100vh;
+    width: 100%;
+}
+
+.outerbox{ /*contains innerbox and logo*/
+    background: #fff;
+    height: 90vh;
+    width: 87vw;
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 100px;
+}
+
+.name{ /* for the company name*/
+    display:inline-block ;
+    font-weight: 800;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    font-size: 20px;
+}
+
+.logo{ /*for the logo*/
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    position: relative;
+    top: 22.5px;
+    left: 220px;
+}
+
+.logo img{ /*for the logo img*/
+    height: 20px;
+}
+
+.header{
+    margin-right: 120px;
+}
+
+div ul{ /*for all ul tags*/
+    float: right;  
+}
+
+div ul li{ /*for all li tags*/
+    display:inline-block;
+    margin-left: 0 5px;
+}
+
+div ul li a{ /*for all a href tags*/
+    color:black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;  
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover{ /*for all a href tags button animation*/
+    background: linear-gradient( to right, #25ecb1 , #0cb193);
+    transition:none; 
+}
+
+.innerbox{ /*for the innerbox*/
+    height: 79vh;
+    width: 83.5vw;
+    background:linear-gradient( to right, #25ecb1 , #0cb193);
+    position: relative;
+    top: 48.7%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 100px;
+    box-shadow: 5px 5px 20px #5a5a5a;
+}
+
+.innerbox_images{ /*for the images*/
+    width: 1080px;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 40px;
+}
+
+.kumar{
+    margin-right: 24px;
+}
+
+.kumar img{
+    height: 200px; 
+    width: 200px;
+}
+
+.sinha{
+    margin-right: 24px;
+}
+
+.sinha img{
+    height: 200px; 
+    width: 200px;
+}
+
+.mondal{
+    margin-right: 24px;
+}
+
+.mondal img{
+    height: 200px; 
+    width: 200px;
+}
+
+.sarkar{
+    margin-right: 24px;
+}
+
+.sarkar img{
+    height: 200px; 
+    width: 200px;
+}
+
+.innerbox_info{ /*for the info below images*/
+    width: 1130px;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 40px;
+}
+
+.kumar_info{
+    margin-right: 69px; 
+    margin-left: 61px;
+}
+
+.kumar_info a{
+    padding-left: 0px;
+}
+
+.kumar_info img{
+    height: 20px; 
+    width: 20px;
+}
+
+.sinha_info{
+    margin-right: 38px;
+}
+
+.sinha_info a{
+    padding-left: 0px;
+}
+
+.sinha_info img{
+    height: 20px; 
+    width: 20px;
+}
+
+.mondal_info{
+    margin-right: 59px;
+    margin-left: 20px;
+}
+
+.mondal_info a{
+    padding-left: 0px;
+}
+
+.mondal_info img{
+    height: 20px; 
+    width: 20px;
+}
+
+.sarkar_info{
+    margin-left: 10px;
+}
+
+.sarkar_info a{
+    padding-left: 0px;
+}
+
+.sarkar_info img{
+    height: 20px; 
+    width: 20px;
+}
+
+h3{ /* for the founder names*/
+    font-family: 'Times New Roman', Times, serif;
+}

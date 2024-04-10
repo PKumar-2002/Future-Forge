@@ -1,0 +1,192 @@
+*{ /*for the whole css*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{ /*for the body*/
+    background: linear-gradient( to right, #25ecb1 , #0cb193);
+    height: 100vh;
+    width: 100%;
+}
+
+.outerbox{ /*contains innerbox and logo*/
+    background: #fff;
+    height: 90vh;
+    width: 87vw;
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 100px;
+}
+
+.name{ /* for the company name*/
+    display:inline-block ;
+    font-weight: 800;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    font-size: 20px;
+}
+
+.logo{ /*for the logo*/
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    position: relative;
+    top: 22.5px;
+    left: 220px;
+}
+
+.logo img{ /*for the logo img*/
+    height: 20px;
+}
+
+.header{
+    margin-right: 120px;
+}
+
+div ul{ /*for all ul tags*/
+    float: right;  
+}
+
+div ul li{ /*for all li tags*/
+    display:inline-block;
+    margin-left: 0 5px;
+}
+
+div ul li a{ /*for all a href tags*/
+    color:black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;  
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover{ /*for all a href tags button animation*/
+    background: linear-gradient( to right, #25ecb1 , #0cb193);
+    transition:none; 
+}
+
+.innerbox{ /*for the innerbox*/
+    height: 79vh;
+    width: 83.5vw;
+    background:linear-gradient( to right, #25ecb1 , #0cb193);
+    position: relative;
+    top: 48.7%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 100px;
+    box-shadow: 5px 5px 20px #5a5a5a;
+}
+
+.card{ /*for the card inside*/
+    background: #fff;
+    height: 60vh;
+    width: 26vw;
+    position: absolute;
+    top: 50%;
+    left: 68%;
+    transform: translate(-50%,-50%);
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+.imgcard{
+    background: #fff;
+    height: 60vh;
+    width: 30vw;
+    position: absolute;
+    top: 50%;
+    left:18%;
+    transform: translate(-50%,-50%);
+    border-radius: 60px;
+    margin-left: 215px;
+}
+
+.handshake{
+    height: 60vh;
+    width: 30vw;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+.card-header {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 1000;
+    padding: 35px 0;
+    background-color: #f5f5f5;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 0px;
+    margin-top: 1px;
+    border-top-right-radius: 60px;
+}
+
+.card-body {
+    padding-top: 20px;
+    margin-left: 15px;
+}
+
+/* Form styling */
+.form-group label {
+    font-weight: bold;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.form-control {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+}
+
+.btn-primary {
+    position: absolute;
+    top: 74%;
+    right: 170px;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: #0cb193;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 40px;
+    width: 90px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.btn-primary:hover {
+    background: linear-gradient( to right, #25ecb1 , #0cb193);
+    transition:none; 
+}
+
+.secondary{
+    position: absolute;
+    top: 92%;
+    right: 43px;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: #0cb193;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 17px;
+    width: 75px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+h3{
+    margin-top: 95px;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}

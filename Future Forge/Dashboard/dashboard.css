@@ -1,0 +1,184 @@
+*{ /*for the whole css*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{ /*for the body*/
+    background: linear-gradient( to right, #25ecb1 , #0cb193);
+    height: 100vh;
+    width: 100%;
+}
+
+.outerbox{ /*contains innerbox and logo*/
+    background: #fff;
+    height: 90vh;
+    width: 87vw;
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 100px;
+}
+
+.name{ /* for the company name*/
+    display:inline-block ;
+    font-weight: 800;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    font-size: 20px;
+}
+
+.logo{ /*for the logo*/
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    position: relative;
+    top: 22.5px;
+    left: 220px;
+}
+
+.logo img{ /*for the logo img*/
+    height: 20px;
+}
+
+.header{
+    margin-right: 120px;
+}
+
+div ul{ /*for all ul tags*/
+    float: right;  
+}
+
+div ul li{ /*for all li tags*/
+    display:inline-block;
+    margin-left: 0 5px;
+}
+
+div ol li{
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 3px;
+    padding-top: 12px;
+}
+
+p{
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+
+div ul li a{ /*for all a href tags*/
+    color:black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;  
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover{ /*for all a href tags button animation*/
+    background: linear-gradient( to right, #25ecb1 , #0cb193);
+    transition:none; 
+}
+
+.innerbox{ /*for the innerbox*/
+    height: 75vh;
+    width: 83.5vw;
+    background:linear-gradient( to right, #25ecb1 , #0cb193);
+    position: relative;
+    top: 48.7%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 100px;
+    box-shadow: 5px 5px 20px #5a5a5a;
+}
+
+h1{ 
+    padding-left: 500px;
+}
+
+h2{
+    margin-top: 20px;
+}
+
+h3{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.card{ /*for the card inside*/
+    background: #25ecb1;
+    height: 45vh;
+    width: 40vw;
+    position: relative;
+    margin-left: 250px;
+    top: 40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 60px;
+    box-shadow: 5px 5px 20px #5a5a5a;
+}
+
+.curton{
+    height: 60vh;
+    width: 77.5vw;
+    background:linear-gradient( to right, #f4f5f5 , #e7f7f4);
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 100px;
+    box-shadow: 5px 5px 20px #5a5a5a;
+}
+
+.level{
+    height: 35vh;
+    width: 14vw;
+    background: #5a5a5a;
+    position: relative;
+    margin-left: 330px;
+    top: 0%;
+    left:30%;
+    transform: translate(100%,-120%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #5a5a5a;
+}
+
+.user{
+    top:-40%;
+    left:11%;
+    width: 200px;
+    transform: translate(-30%,-300%);
+    position: relative;
+}
+
+.image{
+    height: 22vh;
+    width: 5vw;
+    background: scroll;
+    margin-left: 15px;
+    top: 0%;
+    left: 10%;
+    transform: translate(10%,-400%);
+    position: relative;
+}
+
+.loading{
+    padding-top: 20px;
+    width: 75px;
+    height: 6px;
+    margin-left: 21px;
+    transform: translate(10%,-110%);
+    position: relative;
+}
+
+.image img{
+    height: 20px; 
+    width: 20px;
+}
+
+.loading img{
+    margin-left: 140px; 
+    padding-top: 0px;
+}

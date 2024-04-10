@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="logoff.png" type="image/x-icon" />
+    <link rel="stylesheet" href="signup.css" />
+    <title>Sign Up</title>
+  </head>
+
+  <body>
+    <div class="outerbox">
+      <div class="name">FutureForge</div>
+      <div class="logo">
+        <img src="logoff.png" alt="logo"/>
+      </div>
+      <ul class="header">
+        <li><a href="../Home Page/home.html">Home</a></li>
+        <li><a href="../Contributor Page/contribute.html">Contribute</a></li>
+        <li><a href="../About Us Page/about.html">About Us</a></li>
+        <li><a href="./signup.html">Login</a></li>
+      </ul>
+      <div class="innerbox">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+              <div class="imgcard"><img class="handshake" src="handshake.jpg" alt="handshake"></div>
+              <div class="card">
+                <div class="card-header">
+                  Sign Up
+                </div>
+                <div class="card-body">
+                  <form method="post" action="https://script.google.com/macros/s/AKfycbywrMf8D4T1K6NBQdqmm7oqIml_IcOxthH7alKb1IXudMNDxVCmMDlHw6H8Ye9RdWs/exec" name="form" id="form">
+                    <div class="form-group">
+                      <label for="username">Username :</label>
+                      <input type="text" class="form-control" id="username" name="username" placeholder="Enter your username">
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email :</label>
+                      <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                      <label for="password">Password :</label>
+                      <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password">
+                    </div>
+                    <div class="form-group">
+                      <label for="confirmPassword">Confirm Password :</label>
+                      <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password">
+                    </div>
+                    <div class="form-group">
+                      <label for="gender">Gender :</label>
+                      <input type="checkbox" class="form-control" id="male" placeholder="male">
+                      <label for="male">Male</label>
+                      <input type="checkbox" class="form-control" id="female" placeholder="female">
+                      <label for="female">Female</label>
+                    </div>
+                    <div class="form-group">
+                       <h3>Already a member?</h3>
+                       <button type="submit" class="btn btn-primary" onclick="navigateToNextPage()">Sign Up</button>
+                    </div>
+
+                    <div class="secondary"><a href="../Sign In Page/signin.html">Sign In</a></div>
+                    <script src="signup.js"></script>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,238 @@
+*{ /*for the whole css*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{ /*for the body*/
+    background: linear-gradient( to right, #25ecb1 , #0cb193);
+    height: 100vh;
+    width: 100%;
+}
+
+.outerbox{ /*contains innerbox and logo*/
+    background: #fff;
+    height: 90vh;
+    width: 87vw;
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 100px;
+}
+
+.name{ /* for the company name*/
+    display:inline-block ;
+    font-weight: 800;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    font-size: 20px;
+}
+
+.logo{ /*for the logo*/
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    position: relative;
+    top: 22.5px;
+    left: 220px;
+}
+
+.logo img{ /*for the logo img*/
+    height: 20px;
+}
+
+.header{
+    margin-right: 120px;
+}
+
+div ul{ /*for all ul tags*/
+    float: right;  
+}
+
+div ul li{ /*for all li tags*/
+    display:inline-block;
+    margin-left: 0 5px;
+}
+
+div ul li a{ /*for all a href tags*/
+    color:black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;  
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover{ /*for all a href tags button animation*/
+    background: linear-gradient( to right, #25ecb1 , #0cb193);
+    transition:none; 
+}
+
+.innerbox{ /*for the innerbox*/
+    height: 79vh;
+    width: 83.5vw;
+    background:linear-gradient( to right, #25ecb1 , #0cb193);
+    position: relative;
+    top: 48.7%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 100px;
+    box-shadow: 5px 5px 20px #5a5a5a;
+}
+
+video{ /*for the video*/
+    margin-top: 60px;
+    margin-left: 40px;
+    max-width: 450px;
+    float: left;
+    border-radius: 10px;
+    height: 500px;
+}
+
+.video_txt{ /*for the text beside the video*/
+  margin-left: 355px;
+  text-align: justify;
+  margin-right: 250px;
+}
+
+.video_txt a{ /*for the links beside the video*/
+    padding-left: 0px;
+}
+
+.video_txt img{ /*for the link buttons beside the video*/
+    height: 20px; 
+    width: 20px;
+}
+
+h1{ /*for the heading of the video*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+/* .list-view {
+    margin-top: 20px;
+}
+
+.list-view h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.list-view ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-view li {
+    margin-bottom: 8px;
+}
+
+.list-view a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.list-view a:hover {
+    color: #0cb193;
+} */
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.list-wrap ul li{
+    /* background-color: #382a8c; */
+    margin-bottom: 10px;
+    margin-top: 28px;
+    padding: 15px 30px;
+    width: 700px;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-left: 150px;
+    position: relative;
+}
+
+.list-wrap ul li:last-child{
+    margin-bottom: 0;
+}
+
+
+.list-wrap ul li .icon {
+    position: absolute;
+    top: 1PX;
+    left: -80px;
+    background: #7b5be4;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin-left: 20px; /* Adjusted margin-left */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.list-wrap ul li .content{
+    margin-top: 0;
+    margin-left: 40px;
+}
+
+.list-wrap ul li.one .icon:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url('simon_sinek.png') no-repeat;
+    border-radius: 50%;
+    background-size: cover; 
+    
+}
+
+.list-wrap ul li.two .icon:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url('elon-musk.jpg') no-repeat;
+    border-radius: 50%;
+    background-size: cover; 
+    
+}
+
+.list-wrap ul li.three .icon:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url('falguni-nayar.png') no-repeat;
+    border-radius: 50%;
+    background-size: cover; 
+    
+}
+
+.button{
+    position: absolute;
+    top: 85%;
+    right: 58px;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: white;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 40px;
+    width: 90px;
+    font-size: 20px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}

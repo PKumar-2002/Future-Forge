@@ -1,0 +1,123 @@
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: 50px;
+}
+.hello{
+font-size: 50px;
+}
+.name{
+font-size: 40px;
+font-weight: bold;
+font-family: 'Roboto Slab', serif;
+}
+.about{
+    text-align: justify;
+    font-size: 35px;
+}
+.buttons button{
+    padding: 13px;
+    border-radius: 30px;
+    color: black;
+    background-color: var(--teal-secondary);
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.buttons button:hover{
+    color: var(--teal-secondary);
+    background-color: #0cb193; 
+}
+.buttons{
+    margin-top: 35px;
+}
+
+.contactform{
+    font-family: 'Roboto Slab', serif;
+    padding-top: 50px;
+    padding: 98px;
+
+}
+.contactform h1{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+.contactform {
+    font-family: 'Roboto Slab', serif;
+    padding-left: 250px;
+    max-width: 1000px; /* Limit the width of the form */
+    margin: 0 auto; /* Center the form horizontally */
+    width: 100%; /* Ensure the form takes the full width available */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+.contactform h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px; /* Add space below the heading */
+}
+
+.contactform form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform .mb-3 {
+    margin-bottom: 20px; /* Add space between form elements */
+}
+
+.contactform .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contactform .form-check-input {
+    margin-right: 10px;
+}
+
+.contactform button[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    background-color:var(--teal-secondary);
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 20px; /* Add space above the submit button */
+}
+
+.contactform button[type="submit"]:hover {
+    color:var(--teal-secondary);
+    background-color: white;
+}
+
+*{ /*for the whole css*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{ /*for the body*/
+    background: linear-gradient( to right, #25ecb1 , #0cb193);
+    height: 100vh;
+    width: 100%;
+}
+
+.outerbox{ /*contains innerbox and logo*/
+    background: #fff;
+    height: 90vh;
+    width: 87vw;
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 100px;
+}
