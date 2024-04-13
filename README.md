@@ -19,8 +19,4 @@ Stay tuned for updates as we continue to build a platform that empowers individu
 
 Interested in contributing to Future Forge? We welcome the shared wisdom of experienced professionals. If you'd like to share your story or expertise, please reach out to us.
 
-## Contact Us
-
-For inquiries or suggestions, please contact us at [insert contact method]. Your feedback is invaluable to our growth.
-
 Thank you for visiting Future Forge. Together, let's build a future where every career path is valued and explored.
